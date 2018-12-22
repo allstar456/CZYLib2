@@ -7,6 +7,7 @@
 //
 
 #import "GGViewController.h"
+#import <CZYLib2/GGLog.h>
 
 @interface GGViewController ()
 
@@ -18,6 +19,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    [[[GGLog alloc] init] printMsg:@"sdf"];
 }
 
 - (void)didReceiveMemoryWarning

@@ -1,0 +1,751 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08AEE5CD4B868B093A8A739C407057AE /* GGLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 958ED804E4F6686D997197367D7CE7DD /* GGLog.m */; };
+		0BC69A9318D55F7B613B09BF34F5B66E /* Pods-CZYLib2_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B3F704C75DF60EEDB5F6122D917BC6D /* Pods-CZYLib2_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2DA3B9E6E34BA0833E02C8E6685F012A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		62786868FEA53DEA2A9FA9A915AE5419 /* CZYLib2-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7101A32815BCEFCD3E609ED0563AD593 /* CZYLib2-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7517B8C492BF54BDED11299F37421263 /* CZYLib2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D8DB01E09425A950DA23C98805B1BC4 /* CZYLib2-dummy.m */; };
+		841D3D94D2F694B55049B58A05B94F1B /* Pods-CZYLib2_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E1BFA5F6CA964D43C503DFDE5775CD3 /* Pods-CZYLib2_Tests-dummy.m */; };
+		AC5DFF9D1B1BFA847B912EBB50278A11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		C0B1488F42BB13CB18C522FC951779C1 /* GGLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FABDF5A69FF1003F03DF42AB305D025 /* GGLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C651E7E4868E52AE18F17E402FDC2989 /* Pods-CZYLib2_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D486F3D814644EC85C797E5A6B8FDF83 /* Pods-CZYLib2_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7DA917AF404A4DCA6D9790F3402CB29 /* Pods-CZYLib2_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D413650B793822808EF122F8E562D6 /* Pods-CZYLib2_Example-dummy.m */; };
+		ED5F7868C2FB736762F5CB99F1AF1AFE /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 439CD88E06E8F301C2234E96167BE6B4 /* ReplaceMe.m */; };
+		FE29A477FDED40285F1BDB11EA01D985 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		93664808E956C86F91BD4B8059D932D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B28808C9747B8E299660E734E97114CB;
+			remoteInfo = CZYLib2;
+		};
+		992C6C94CB47FBC91769A2E0AA314B71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 574761799EAE816617089E78DC7A85FA;
+			remoteInfo = "Pods-CZYLib2_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04859C97C18462712BBA0189E31478EC /* CZYLib2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CZYLib2.framework; path = CZYLib2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		078B470593FD993B6201D15AFD44DB57 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		0AE7F4111AFAF61D491A20E3DA9CEE62 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B3F704C75DF60EEDB5F6122D917BC6D /* Pods-CZYLib2_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CZYLib2_Example-umbrella.h"; sourceTree = "<group>"; };
+		0E1BFA5F6CA964D43C503DFDE5775CD3 /* Pods-CZYLib2_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CZYLib2_Tests-dummy.m"; sourceTree = "<group>"; };
+		0FABDF5A69FF1003F03DF42AB305D025 /* GGLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GGLog.h; path = CZYLib2/Classes/GGLog.h; sourceTree = "<group>"; };
+		1B4105863A556A5C387EB6D13B027952 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		26D413650B793822808EF122F8E562D6 /* Pods-CZYLib2_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CZYLib2_Example-dummy.m"; sourceTree = "<group>"; };
+		279C87237806B408952DB747A350FCF3 /* Pods-CZYLib2_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CZYLib2_Tests.modulemap"; sourceTree = "<group>"; };
+		281C08BB800BF503F5B687B6B81B7EBA /* Pods_CZYLib2_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CZYLib2_Example.framework; path = "Pods-CZYLib2_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		359092FE5B7A484440CA3B4D97422556 /* CZYLib2-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CZYLib2-prefix.pch"; sourceTree = "<group>"; };
+		38E165FEC3F4689EF56CA2C3142A00B3 /* CZYLib2.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = CZYLib2.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3CB1E4CDDD999BFB33ED1E61FA436357 /* Pods_CZYLib2_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CZYLib2_Tests.framework; path = "Pods-CZYLib2_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		439CD88E06E8F301C2234E96167BE6B4 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = CZYLib2/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		466F40533421FA7C3A381808CCEE28F2 /* Pods-CZYLib2_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CZYLib2_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		474C9419DF2FD9AAACD41C3297BCE5F3 /* Pods-CZYLib2_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CZYLib2_Example-frameworks.sh"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6620F1719B6A4802A45EFC48ABBC368F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66D2ADC9BB08D981BA2AC34D1C00962E /* Pods-CZYLib2_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CZYLib2_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6846C7BC3C94D70C3D5F320BCCD2ADD9 /* Pods-CZYLib2_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CZYLib2_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7101A32815BCEFCD3E609ED0563AD593 /* CZYLib2-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CZYLib2-umbrella.h"; sourceTree = "<group>"; };
+		716EA7969A841118367BFA549DED4DAB /* Pods-CZYLib2_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CZYLib2_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		721507EC5B85DFB342AEA4348D4131CC /* Pods-CZYLib2_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CZYLib2_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		7D7FF8B3B31A5D7D1ADA0CDA85C1C6E8 /* CZYLib2.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CZYLib2.xcconfig; sourceTree = "<group>"; };
+		7D8DB01E09425A950DA23C98805B1BC4 /* CZYLib2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CZYLib2-dummy.m"; sourceTree = "<group>"; };
+		88355A9C7954B73022329F11B4171F79 /* Pods-CZYLib2_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CZYLib2_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		958ED804E4F6686D997197367D7CE7DD /* GGLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GGLog.m; path = CZYLib2/Classes/GGLog.m; sourceTree = "<group>"; };
+		AA4BD1DC81314CC68CD28725FC048D18 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD1EA88848BCE7D16EF4F1971EBBE6A7 /* Pods-CZYLib2_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CZYLib2_Example.modulemap"; sourceTree = "<group>"; };
+		C028220D6AC01F31D1E243B9E97CBFAA /* Pods-CZYLib2_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CZYLib2_Example-resources.sh"; sourceTree = "<group>"; };
+		C83FEE2ECA2F7ECC2F115D6AE25D9478 /* Pods-CZYLib2_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CZYLib2_Tests-resources.sh"; sourceTree = "<group>"; };
+		D486F3D814644EC85C797E5A6B8FDF83 /* Pods-CZYLib2_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CZYLib2_Tests-umbrella.h"; sourceTree = "<group>"; };
+		DB07F1EE5AE2160A4407815094686BEA /* CZYLib2.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CZYLib2.modulemap; sourceTree = "<group>"; };
+		DB28DDE6B9EAE0C5E69279F65E27CD01 /* Pods-CZYLib2_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CZYLib2_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		DDCBDC4B066949D76CC142BBFC011ABD /* Pods-CZYLib2_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CZYLib2_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E4469EC9D4F95FC76548C9DA93B9B45D /* Pods-CZYLib2_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CZYLib2_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14B3C827151EB0029DB82402D7D82371 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC5DFF9D1B1BFA847B912EBB50278A11 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0BF4A6BAE17B243A5DE98C698E880A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE29A477FDED40285F1BDB11EA01D985 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD480A419B47431BB27EEB88D8A4376A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DA3B9E6E34BA0833E02C8E6685F012A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11DB7A14CF4FD26E81E4B5EB2240566D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04859C97C18462712BBA0189E31478EC /* CZYLib2.framework */,
+				281C08BB800BF503F5B687B6B81B7EBA /* Pods_CZYLib2_Example.framework */,
+				3CB1E4CDDD999BFB33ED1E61FA436357 /* Pods_CZYLib2_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20C769DF99DD6BEE9ABB93F67E71CFFD /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2BE528D97FEB20768FF7095CA256AEA7 /* CZYLib2 */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		2BE528D97FEB20768FF7095CA256AEA7 /* CZYLib2 */ = {
+			isa = PBXGroup;
+			children = (
+				0FABDF5A69FF1003F03DF42AB305D025 /* GGLog.h */,
+				958ED804E4F6686D997197367D7CE7DD /* GGLog.m */,
+				439CD88E06E8F301C2234E96167BE6B4 /* ReplaceMe.m */,
+				3F1957C139E24C9A94BCEDD795479920 /* Pod */,
+				7165A7BDC63DD0121C40573A1B85DDCB /* Support Files */,
+			);
+			name = CZYLib2;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		3F1957C139E24C9A94BCEDD795479920 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				38E165FEC3F4689EF56CA2C3142A00B3 /* CZYLib2.podspec */,
+				1B4105863A556A5C387EB6D13B027952 /* LICENSE */,
+				078B470593FD993B6201D15AFD44DB57 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7165A7BDC63DD0121C40573A1B85DDCB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB07F1EE5AE2160A4407815094686BEA /* CZYLib2.modulemap */,
+				7D7FF8B3B31A5D7D1ADA0CDA85C1C6E8 /* CZYLib2.xcconfig */,
+				7D8DB01E09425A950DA23C98805B1BC4 /* CZYLib2-dummy.m */,
+				359092FE5B7A484440CA3B4D97422556 /* CZYLib2-prefix.pch */,
+				7101A32815BCEFCD3E609ED0563AD593 /* CZYLib2-umbrella.h */,
+				0AE7F4111AFAF61D491A20E3DA9CEE62 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CZYLib2";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				20C769DF99DD6BEE9ABB93F67E71CFFD /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				11DB7A14CF4FD26E81E4B5EB2240566D /* Products */,
+				DD17B09467578DEE1FD2E098A5D475CF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		880845605083229AC51AF2407521B0FD /* Pods-CZYLib2_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6620F1719B6A4802A45EFC48ABBC368F /* Info.plist */,
+				279C87237806B408952DB747A350FCF3 /* Pods-CZYLib2_Tests.modulemap */,
+				E4469EC9D4F95FC76548C9DA93B9B45D /* Pods-CZYLib2_Tests-acknowledgements.markdown */,
+				66D2ADC9BB08D981BA2AC34D1C00962E /* Pods-CZYLib2_Tests-acknowledgements.plist */,
+				0E1BFA5F6CA964D43C503DFDE5775CD3 /* Pods-CZYLib2_Tests-dummy.m */,
+				DB28DDE6B9EAE0C5E69279F65E27CD01 /* Pods-CZYLib2_Tests-frameworks.sh */,
+				C83FEE2ECA2F7ECC2F115D6AE25D9478 /* Pods-CZYLib2_Tests-resources.sh */,
+				D486F3D814644EC85C797E5A6B8FDF83 /* Pods-CZYLib2_Tests-umbrella.h */,
+				721507EC5B85DFB342AEA4348D4131CC /* Pods-CZYLib2_Tests.debug.xcconfig */,
+				716EA7969A841118367BFA549DED4DAB /* Pods-CZYLib2_Tests.release.xcconfig */,
+			);
+			name = "Pods-CZYLib2_Tests";
+			path = "Target Support Files/Pods-CZYLib2_Tests";
+			sourceTree = "<group>";
+		};
+		A88A7AC95806D66DFED3EFB74A322FD8 /* Pods-CZYLib2_Example */ = {
+			isa = PBXGroup;
+			children = (
+				AA4BD1DC81314CC68CD28725FC048D18 /* Info.plist */,
+				BD1EA88848BCE7D16EF4F1971EBBE6A7 /* Pods-CZYLib2_Example.modulemap */,
+				6846C7BC3C94D70C3D5F320BCCD2ADD9 /* Pods-CZYLib2_Example-acknowledgements.markdown */,
+				88355A9C7954B73022329F11B4171F79 /* Pods-CZYLib2_Example-acknowledgements.plist */,
+				26D413650B793822808EF122F8E562D6 /* Pods-CZYLib2_Example-dummy.m */,
+				474C9419DF2FD9AAACD41C3297BCE5F3 /* Pods-CZYLib2_Example-frameworks.sh */,
+				C028220D6AC01F31D1E243B9E97CBFAA /* Pods-CZYLib2_Example-resources.sh */,
+				0B3F704C75DF60EEDB5F6122D917BC6D /* Pods-CZYLib2_Example-umbrella.h */,
+				466F40533421FA7C3A381808CCEE28F2 /* Pods-CZYLib2_Example.debug.xcconfig */,
+				DDCBDC4B066949D76CC142BBFC011ABD /* Pods-CZYLib2_Example.release.xcconfig */,
+			);
+			name = "Pods-CZYLib2_Example";
+			path = "Target Support Files/Pods-CZYLib2_Example";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD17B09467578DEE1FD2E098A5D475CF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A88A7AC95806D66DFED3EFB74A322FD8 /* Pods-CZYLib2_Example */,
+				880845605083229AC51AF2407521B0FD /* Pods-CZYLib2_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		878F7F40A71853ABF802261FC66D1E0D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BC69A9318D55F7B613B09BF34F5B66E /* Pods-CZYLib2_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A09884A4A560C76FA76A47910AC1FB9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C651E7E4868E52AE18F17E402FDC2989 /* Pods-CZYLib2_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E95BEA76F75430709D32EA0045F93CDC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62786868FEA53DEA2A9FA9A915AE5419 /* CZYLib2-umbrella.h in Headers */,
+				C0B1488F42BB13CB18C522FC951779C1 /* GGLog.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1330E31162B1D513301A9E8D28ABB5AA /* Pods-CZYLib2_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FB94733737238C8B26E8684BF5F13BD /* Build configuration list for PBXNativeTarget "Pods-CZYLib2_Tests" */;
+			buildPhases = (
+				1607E46760D932EAFEC7E4E06D546439 /* Sources */,
+				14B3C827151EB0029DB82402D7D82371 /* Frameworks */,
+				8A09884A4A560C76FA76A47910AC1FB9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8370610282E03984C134DC221B5DA2E /* PBXTargetDependency */,
+			);
+			name = "Pods-CZYLib2_Tests";
+			productName = "Pods-CZYLib2_Tests";
+			productReference = 3CB1E4CDDD999BFB33ED1E61FA436357 /* Pods_CZYLib2_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		574761799EAE816617089E78DC7A85FA /* Pods-CZYLib2_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 821009B3F169CE4C7F15AA186357EEB3 /* Build configuration list for PBXNativeTarget "Pods-CZYLib2_Example" */;
+			buildPhases = (
+				EC8C2BCF46C241C69DBA4D8A0F08AA64 /* Sources */,
+				A0BF4A6BAE17B243A5DE98C698E880A4 /* Frameworks */,
+				878F7F40A71853ABF802261FC66D1E0D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B78B22D720A46645C518FAA178EDF009 /* PBXTargetDependency */,
+			);
+			name = "Pods-CZYLib2_Example";
+			productName = "Pods-CZYLib2_Example";
+			productReference = 281C08BB800BF503F5B687B6B81B7EBA /* Pods_CZYLib2_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B28808C9747B8E299660E734E97114CB /* CZYLib2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CD77DAAF7E1769DEB878AA2D8EB883B /* Build configuration list for PBXNativeTarget "CZYLib2" */;
+			buildPhases = (
+				7284DDEE1E388231B5290C65C7740545 /* Sources */,
+				DD480A419B47431BB27EEB88D8A4376A /* Frameworks */,
+				E95BEA76F75430709D32EA0045F93CDC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CZYLib2;
+			productName = CZYLib2;
+			productReference = 04859C97C18462712BBA0189E31478EC /* CZYLib2.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 11DB7A14CF4FD26E81E4B5EB2240566D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B28808C9747B8E299660E734E97114CB /* CZYLib2 */,
+				574761799EAE816617089E78DC7A85FA /* Pods-CZYLib2_Example */,
+				1330E31162B1D513301A9E8D28ABB5AA /* Pods-CZYLib2_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1607E46760D932EAFEC7E4E06D546439 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				841D3D94D2F694B55049B58A05B94F1B /* Pods-CZYLib2_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7284DDEE1E388231B5290C65C7740545 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7517B8C492BF54BDED11299F37421263 /* CZYLib2-dummy.m in Sources */,
+				08AEE5CD4B868B093A8A739C407057AE /* GGLog.m in Sources */,
+				ED5F7868C2FB736762F5CB99F1AF1AFE /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC8C2BCF46C241C69DBA4D8A0F08AA64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7DA917AF404A4DCA6D9790F3402CB29 /* Pods-CZYLib2_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A8370610282E03984C134DC221B5DA2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CZYLib2_Example";
+			target = 574761799EAE816617089E78DC7A85FA /* Pods-CZYLib2_Example */;
+			targetProxy = 992C6C94CB47FBC91769A2E0AA314B71 /* PBXContainerItemProxy */;
+		};
+		B78B22D720A46645C518FAA178EDF009 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CZYLib2;
+			target = B28808C9747B8E299660E734E97114CB /* CZYLib2 */;
+			targetProxy = 93664808E956C86F91BD4B8059D932D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3F1317875C7DC3DF8721C7526949A193 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 721507EC5B85DFB342AEA4348D4131CC /* Pods-CZYLib2_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CZYLib2_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CZYLib2_Tests/Pods-CZYLib2_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7A804380C3EAD147CEB0617113504025 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 716EA7969A841118367BFA549DED4DAB /* Pods-CZYLib2_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CZYLib2_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CZYLib2_Tests/Pods-CZYLib2_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		871BBF6D75117280B7BFB75AF486443F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D7FF8B3B31A5D7D1ADA0CDA85C1C6E8 /* CZYLib2.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CZYLib2/CZYLib2-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CZYLib2/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CZYLib2/CZYLib2.modulemap";
+				PRODUCT_MODULE_NAME = CZYLib2;
+				PRODUCT_NAME = CZYLib2;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BDDF9582FAF58E858B658108575B73AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D7FF8B3B31A5D7D1ADA0CDA85C1C6E8 /* CZYLib2.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CZYLib2/CZYLib2-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CZYLib2/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CZYLib2/CZYLib2.modulemap";
+				PRODUCT_MODULE_NAME = CZYLib2;
+				PRODUCT_NAME = CZYLib2;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F7FF5C77FF7B21F366C30AED6209A9FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDCBDC4B066949D76CC142BBFC011ABD /* Pods-CZYLib2_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CZYLib2_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CZYLib2_Example/Pods-CZYLib2_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FE87A901AC158EEB1669046F8A1D572A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 466F40533421FA7C3A381808CCEE28F2 /* Pods-CZYLib2_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CZYLib2_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CZYLib2_Example/Pods-CZYLib2_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FB94733737238C8B26E8684BF5F13BD /* Build configuration list for PBXNativeTarget "Pods-CZYLib2_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F1317875C7DC3DF8721C7526949A193 /* Debug */,
+				7A804380C3EAD147CEB0617113504025 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE19F5DD95931924296F637BF18BD8F /* Debug */,
+				F4568DEE257655D290C2B9CEAB37C934 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CD77DAAF7E1769DEB878AA2D8EB883B /* Build configuration list for PBXNativeTarget "CZYLib2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				871BBF6D75117280B7BFB75AF486443F /* Debug */,
+				BDDF9582FAF58E858B658108575B73AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		821009B3F169CE4C7F15AA186357EEB3 /* Build configuration list for PBXNativeTarget "Pods-CZYLib2_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE87A901AC158EEB1669046F8A1D572A /* Debug */,
+				F7FF5C77FF7B21F366C30AED6209A9FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

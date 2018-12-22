@@ -1,0 +1,6 @@
+framework module CZYLib2 {
+  umbrella header "CZYLib2-umbrella.h"
+
+  export *
+  module * { export * }
+}

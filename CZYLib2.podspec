@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CZYLib2'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = '简单的测试CZYLib2.'
 
 # This description is used to generate tags and improve search results.
@@ -36,7 +36,7 @@ TODO: Add long description of the pod here.
   #   'CZYLib2' => ['CZYLib2/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'CZYLib2/Classes/GGLog.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

@@ -1,6 +1,6 @@
 {
   "name": "CZYLib2",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "简单的测试CZYLib2.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/allstar456/CZYLib2",
@@ -13,10 +13,11 @@
   },
   "source": {
     "git": "/Users/czy/Desktop/tmp/CZYLib2",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "CZYLib2/Classes/**/*"
+  "source_files": "CZYLib2/Classes/**/*",
+  "public_header_files": "CZYLib2/Classes/GGLog.h"
 }

@@ -1,5 +1,5 @@
 PODS:
-  - CZYLib2 (0.1.0)
+  - CZYLib2 (0.1.1)
 
 DEPENDENCIES:
   - CZYLib2 (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CZYLib2: 5a1f7ce6c29492ca218a2428076aedfb8cef5a09
+  CZYLib2: 7719e8d4501c9103cb67002e8c0643cdb6788c48
 
 PODFILE CHECKSUM: e79df0b8052510b7ccf13e3de60b4efec6506977
 
